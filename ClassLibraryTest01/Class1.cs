@@ -28,8 +28,7 @@ namespace ClassLibraryTest01
             // rsa.PersistKeyInCsp = false;
 
             //writes out the current key pair used in the rsa instance
-            
-return ("Key is : \n" + rsa.ToXmlString(true));
+            return ("Key is : \n" + rsa.ToXmlString(true));
         }
     }
 }
